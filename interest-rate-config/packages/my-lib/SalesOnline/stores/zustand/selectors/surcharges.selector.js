@@ -1,0 +1,16 @@
+export const selector = {
+  surchargeInView: (state) => state.surchargeInView,
+  surchargesDict: (state) => state.surchargesDict,
+  validFrom: (state) => state.validFrom,
+  newValidFrom: (state) => state.newValidFrom,
+  setSurchargeInView: (state) => state.setSurchargeInView,
+  setSurcharge: (state) => state.setSurcharge,
+  goBackToDate: (state) => state.goBackToDate,
+  setNewValidFrom: (state) => state.setNewValidFrom,
+  cleanUp: (state) => state.cleanUp,
+  updateRow: (state) => state.updateRow,
+  reset: (state) => state.reset,
+  updatedData: (state) => state.surchargesDict?.[state.surchargeInView]?.updatedData,
+  columns: (state) => state.surchargesDict?.[state.surchargeInView]?.columns,
+  minimalData: (state) => state.surchargesDict?.[state.surchargeInView]?.minimalData,
+};

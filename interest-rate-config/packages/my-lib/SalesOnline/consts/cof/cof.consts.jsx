@@ -1,0 +1,10 @@
+import { COF_BASIS_POINTS_DETAIL, COF_CONFIGURATION } from '../../types/cof.types';
+
+export const TABLE_KEYS = {
+  TERM: COF_BASIS_POINTS_DETAIL.TERM,
+  BASIS_POINTS: COF_CONFIGURATION.BASIS_POINTS,
+  BASIS_SWAP: COF_CONFIGURATION.BASIS_SWAP,
+  LENDING: 'lending',
+};
+
+export const errMsgArrayVar = 'errorMsgs';

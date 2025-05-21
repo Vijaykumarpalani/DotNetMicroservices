@@ -1,0 +1,1 @@
+export const SALES_ONLINE_KEY = 'sales-online-auth';

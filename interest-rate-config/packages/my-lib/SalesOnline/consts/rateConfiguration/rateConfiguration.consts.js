@@ -1,0 +1,4 @@
+export const RATE_CONFIGURATION_TYPE = {
+  PROFORMA: 'PROFORMA',
+  COF: 'COF'
+};

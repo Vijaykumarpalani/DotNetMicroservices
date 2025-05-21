@@ -1,0 +1,23 @@
+{
+  "name": "vfs-interest-rate-config",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "site/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build --no-cache --parallel --continue",
+    "dev": "turbo run dev  --no-cache --parallel --continue",
+    "publish-lib": "npm publish -w=packages/my-lib"
+  },
+  "devDependencies": {
+    "turbo": "latest"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "yarn@1.22.17",
+  "license": "MIT"
+}

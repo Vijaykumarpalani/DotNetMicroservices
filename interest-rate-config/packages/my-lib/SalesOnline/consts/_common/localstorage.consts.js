@@ -1,0 +1,1 @@
+export const SALES_ONLINE_TOKEN = 'sales_online_token';
