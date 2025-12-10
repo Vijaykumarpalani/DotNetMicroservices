@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/firstappforreact/firstappforreact/.vs
+/firstappforreact/firstappforreact/firstappforreact/bin/Debug/net8.0
+/firstappforreact/firstappforreact/firstappforreact/obj
+/DotNetMicroservice/.vs/DotNetMicroservice
+/DotNetMicroservice/DotNetMicroservice/bin/Debug/net8.0
+/DotNetMicroservice/DotNetMicroservice/obj
+/firstappforreact/firstappforreact
